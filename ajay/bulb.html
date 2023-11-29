@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>
+bulb
+</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div align="center">
+<img src="off.jpeg" alt="not found" id="img">
+<div>
+<button id="on">Turn On </button>
+<button id="off">Turn Off </button>
+</div>
+</div>
+<script>
+document.getElementById("on").addEventListener("click",()=>{
+document.getElementById("img").src="on.jpeg"})
+document.getElementById("off").addEventListener("click",()=>{
+document.getElementById("img").src="off.jpeg"})
+</script>
+</body>
+</html>
